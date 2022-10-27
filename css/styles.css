@@ -96,6 +96,10 @@
         text-decoration: none;
     }
 
+    .contact-link{
+        color: var(--main-text-color);
+    }
+
     
     /*-----------------------------ORDER------------------------*/
     
@@ -191,10 +195,13 @@
     }
 
     .footer .link{
-        font-family: 'Roboto', sans-serif;
         font-size: 14px;
         line-height: calc(24/14);
         letter-spacing: 0.03em;
+    }
+
+    .footer .link:hover, .footer .link:focus{
+        color: var(--accent-color);
     }
 
     .footer .logo-link{
@@ -222,8 +229,6 @@
 
         font-family: 'Roboto', sans-serif;
         font-style: medium;
-        font-size: 16px;
-        line-height: calc(26/16);
         letter-spacing: 0.03em;
 
 
@@ -242,7 +247,7 @@
     
     /*----------------Карточки с работами-----------*/
     
-    .examples.second-heading{
+    .examples .second-heading{
         font-size: 18px;
         line-height: calc(36/18);
         letter-spacing: 0.06em;
